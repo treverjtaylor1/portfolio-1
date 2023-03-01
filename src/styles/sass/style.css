@@ -1,0 +1,48 @@
+html {
+  background-image: url(../backgrounds/space-loop.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.homepage {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homepage p {
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+}
+.homepage i {
+  color: white;
+}
+
+.main-title1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-title2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  line-height: 0.6;
+}
+.main-title2:hover::after,
+.main-title2 :focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.navigation {
+  height: 100px !important;
+  width: 100%;
+}
+.navigation .branding {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
